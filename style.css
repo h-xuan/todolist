@@ -96,6 +96,7 @@ a {
 	width: 82%;
 	color: #877a70;
 	padding: 5px 0;
+	font-size: 18px;
 	/*vertical-align: middle;*/
 }
 .delete, #restart {
@@ -122,6 +123,7 @@ a {
 	padding-top: 30px;
 	color: #877a70;
 	display: none;
+	text-align: center;
 }
 
 #todotitle {
