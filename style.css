@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+
+body {
+	/*background: rgb(162,143,175);*/
+	background-image: url(imgs/gridbg.png), linear-gradient(180deg, rgba(255,246,221,1) 0%, rgba(255,202,180,1) 100%);
+	/*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    font-family: 'Fredoka One', cursive;
+}
+
+a {
+	text-decoration: inherit;
+	color: #eee;
+}
+
+#wrapper {
+	margin: 30px auto;
+	width: 40%;
+	min-width: 500px;
+}
+
+#add-div {
+	background: rgba(255,255,255,0.6);
+	padding: 8%;
+	border-radius: 8px;
+}
+
+#add-div input {
+	padding: 18px 10px;
+	width: 75%;
+	background-color: rgb(255,230,211);
+	border: none;
+	border-radius: 5px;
+	border-bottom: 3px solid #edc5a4;
+	font-family: 'Fredoka One', cursive;
+	font-size: 18px;
+	color: #a18977;
+	outline: none;
+	transition: 0.2s ease-in-out;
+}
+#add-div input::placeholder {
+	color: #cfb49f;
+}
+#add-div input:focus {
+	border: none;
+	box-shadow: 0 0 0 2pt #edc5a4;
+}
+
+#add-div button {
+	padding: 18px 20px;
+	margin-left: 5%;
+	border-radius: 5px;
+	border: none;
+	background-color: #edc5a4;
+	font-family: 'Fredoka One', cursive;
+	font-size: 18px;
+	color: #fff4eb;
+	outline: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+#add-div button:hover{
+	background-color: #ffdcbf;
+}
+
+#task-list ul {
+	list-style-type: none;
+
+}
+
+#task-list ul li{
+	margin: 20px auto;
+	padding: 25px 40px;
+	background: rgba(255,255,255,0.8);
+	border-radius: 8px;
+	/*font-family: 'Fredoka One', cursive;*/
+
+}
+
+.name {
+	display: inline-block;
+	width: 82%;
+	color: #877a70;
+	padding: 5px 0;
+	/*vertical-align: middle;*/
+}
+.delete, #restart {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #edc5a4;
+	padding: 5px 10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.delete{
+	float: right;
+}
+
+#restart{
+	margin-left: 30px;
+}
+.delete:hover, #restart:hover{
+	background-color: #ffbc82;
+}
+
+#restart-div {
+	padding-top: 30px;
+	color: #877a70;
+	display: none;
+}
+
+#todotitle {
+	position: fixed;
+	bottom: 0;
+	left: 35%;
+	font-size: 150px;
+	letter-spacing: 20px;
+	color: rgba(255, 246, 240, 0.5);
+}
+
+#me {
+	font-size: 13px;
+	letter-spacing: 5px;
+	line-height: 10%;
+	text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+	#todotitle{
+		left: 5%;
+		line-height: 80%;
+		bottom: 2%;
+	}
+/*	#add-div {
+		padding: 50px 20px;
+	}
+	#add-div input {
+		width: 70%;
+		}
+	#add-div button {
+		padding: 18px 10px;
+		background-color: red;
+	}*/
+	#me {
+		display: block;
+		margin-top: 3%;
+	}
+	}
