@@ -127,8 +127,9 @@ a {
 #todotitle {
 	z-index: 1;
 	position: fixed;
-	bottom: 0;
-	left: 35%;
+	bottom: 3%;
+	left: 30%;
+	line-height: 80%;
 	font-size: 150px;
 	letter-spacing: 20px;
 	color: rgba(255, 246, 240, 0.5);
@@ -139,26 +140,12 @@ a {
 	letter-spacing: 5px;
 	line-height: 10%;
 	text-align: right;
+	display: block;
+	margin-top: 3%;
 }
 
 @media only screen and (max-width: 600px) {
 	#todotitle{
 		left: 5%;
-		line-height: 80%;
-		bottom: 2%;
-	}
-/*	#add-div {
-		padding: 50px 20px;
-	}
-	#add-div input {
-		width: 70%;
-		}
-	#add-div button {
-		padding: 18px 10px;
-		background-color: red;
-	}*/
-	#me {
-		display: block;
-		margin-top: 3%;
 	}
 	}
