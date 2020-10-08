@@ -29,6 +29,8 @@ addForm.addEventListener('submit', function(e){
 	e.preventDefault();
 	const value = addForm.querySelector('input[type="text"]').value;
 	
+	if (value !== "")
+	{
 	//create elements
 	const li = document.createElement('li');
 	const taskName = document.createElement('span');
@@ -49,6 +51,7 @@ addForm.addEventListener('submit', function(e){
 	addForm.reset();
 	counter += 1;
 	restart.style.display = "none";
+	}
 });
 
 

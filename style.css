@@ -26,6 +26,7 @@ a {
 	margin: 30px auto;
 	width: 40%;
 	min-width: 500px;
+	z-index: 5;
 }
 
 #add-div {
@@ -40,7 +41,7 @@ a {
 	background-color: rgb(255,230,211);
 	border: none;
 	border-radius: 5px;
-	border-bottom: 3px solid #edc5a4;
+	border-bottom: 3px solid #ffc6a6;
 	font-family: 'Fredoka One', cursive;
 	font-size: 18px;
 	color: #a18977;
@@ -52,7 +53,7 @@ a {
 }
 #add-div input:focus {
 	border: none;
-	box-shadow: 0 0 0 2pt #edc5a4;
+	box-shadow: 0 0 0 2pt #ffc6a6;
 }
 
 #add-div button {
@@ -60,7 +61,7 @@ a {
 	margin-left: 5%;
 	border-radius: 5px;
 	border: none;
-	background-color: #edc5a4;
+	background-color: #ffc6a6;
 	font-family: 'Fredoka One', cursive;
 	font-size: 18px;
 	color: #fff4eb;
@@ -121,6 +122,7 @@ a {
 }
 
 #todotitle {
+	z-index: 1;
 	position: fixed;
 	bottom: 0;
 	left: 35%;
