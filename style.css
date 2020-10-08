@@ -148,4 +148,8 @@ a {
 	#todotitle{
 		left: 5%;
 	}
+
+	#wrapper {
+		width: 100%;
 	}
+}
